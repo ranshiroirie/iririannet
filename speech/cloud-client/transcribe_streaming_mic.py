@@ -42,6 +42,7 @@ from six.moves import queue
 RATE = 16000
 CHUNK = int(RATE / 10)  # 100ms
 
+input_device_index = 0
 
 class MicrophoneStream(object):
     """Opens a recording stream as a generator yielding the audio chunks."""

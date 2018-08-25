@@ -21,7 +21,7 @@ Example usage:
     python transcribe.py resources/audio.raw
     python transcribe.py gs://cloud-samples-tests/speech/brooklyn.flac
 """
-
+# coding:utf-8
 # [START import_libraries]
 import argparse
 import io
